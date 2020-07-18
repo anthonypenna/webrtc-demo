@@ -1,0 +1,21 @@
+{
+  "name": "webrtc-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "parcel index.html --port 8080",
+    "build": "parcel build src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^1.12.4",
+    "typescript": "^3.9.7"
+  },
+  "dependencies": {
+    "hybrids": "^4.2.1",
+    "writable-store": "^1.1.0"
+  }
+}
